@@ -1,0 +1,48 @@
+.arf-score-wrapper {
+    border-top: 1px solid #cfcfcf;
+    cursor: default;
+    padding: 1px 4px 1px 4px;
+}
+
+#arf-score {
+    border: 1px solid #f5f5f5;
+    color: #444;
+    display: inline-block;
+    font-size: 20px;
+    padding: 3px;
+}
+
+#arf-score:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+}
+
+.arf-tooltip {
+    background-color: #2a2a2a;
+    border: 1px solid #fff;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 7px 9px;
+    width: 115px;
+    z-index: 9999;
+}
+
+.arf-warning {
+    background-color: #2a2a2a;
+    border: 1px solid #fff;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    left: 0;
+    padding: 7px 9px;
+    position: absolute:
+    top: 0;
+    width: 960px;
+    z-index: 9999;
+}
+
+.arf-seal {
+    width: 100%;
+}

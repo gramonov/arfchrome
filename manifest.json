@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+
+    "name": "Anti-regret Filter",
+    "description": "Prevents you from sending emails you will regret later",
+    "version": "0.0.1",
+
+    "content_scripts": [
+        {
+            "matches": ["*://mail.google.com/*"],
+            "css": ["css/arf.css"],
+            "js": [
+                "dependencies/jquery-1.10.2.min.js",
+                "dependencies/jquery-ui-1.10.3.custom.min.js",
+                "arf.js"
+            ]
+        }
+    ],
+
+    "web_accessible_resources": [
+        "dependencies/jquery-1.10.2.min.map",
+        "images/seal.jpg"
+    ]
+}
