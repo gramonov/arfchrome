@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "Anti-regret Filter",
+    "name": "Anti-regret filter",
     "description": "Prevents you from sending emails you will regret later",
     "version": "0.0.1",
 
